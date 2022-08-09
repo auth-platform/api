@@ -1,0 +1,5 @@
+@baseUrl=http://localhost:3002/api
+
+GET {{baseUrl}}/user/admin
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3IiOiJ1c2VyMSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU4ODI2MDU1LCJleHAiOjE2NTg5MTI0NTV9.HTP1j5u87q2-3fFubLTFlhj9rx6_MriX8J6LWutHk40

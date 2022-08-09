@@ -1,0 +1,4 @@
+@baseUrl=http://localhost:3002/api
+
+GET {{baseUrl}}/user/list
+content-type: application/json

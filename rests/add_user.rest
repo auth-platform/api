@@ -1,0 +1,11 @@
+@baseUrl=http://localhost:3002/api
+
+POST {{baseUrl}}/user
+content-type: application/json
+
+{
+  "email": "admin1@auth-platform.io",
+  "pwd": "123456",
+  "role": "admin",
+  "name": "Administrator"
+}
